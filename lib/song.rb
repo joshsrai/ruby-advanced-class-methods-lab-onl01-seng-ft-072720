@@ -28,6 +28,12 @@ class Song
     song
   end
   
+  def self.crete_by_artist_name(artist_name)
+    song = Song.create 
+    song.artist_name = artist_name 
+    song
+  end
+  
   def self.find_by_name
     song = Song.find
     song.name = name
