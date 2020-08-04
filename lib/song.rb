@@ -59,7 +59,6 @@ class Song
     song.artist_name = artist
   end
     
-  end
 
 
 
